@@ -111,4 +111,4 @@ set-option -g repeat-time 0
 # client connected to *that window*. Much more reasonable.
 setw -g aggressive-resize on
 
-source-file ~/.tmux.conf.local
+source-file ~/.tmux.conf
