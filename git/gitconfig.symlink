@@ -1,8 +1,8 @@
 # User information. Replace with your own data, obviously.
 #
 [user]
-    name = Aniket Pant
-    email = me@aniketpant.com
+    name = Sam Couch
+    email = samcouch91@gmail.com
 
 # Automatically track branches with the same name
 #
@@ -65,12 +65,6 @@
 # Git Applications
 #
 [github]
-    user = aniketpant
-[ghi]
-    user = aniketpant
-    token = !security find-internet-password -a parkr -s github.com -l 'ghi token' -w
+    user = samuelcouch
 [credential]
-    helper = cache
-[filter "media"]
-    clean = git-media-clean %f
-    smudge = git-media-smudge %f
+	helper = osxkeychain
