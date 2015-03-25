@@ -1,7 +1,8 @@
 # All your dotfiles are belong to us
 
-Orginally, I had taken my dotfiles from [@holman](https://github.com/holman). Eventually I tweaked them a lot and realized that the base configuration didn't work well for me.
-After, a while I realized that [@parkr](https://github.com/@parkr) had put his dotfiles up too and these were closer to mine. What you see here is a stripped down version of many dotfiles from GitHub.
+Orginally, I had taken my dotfiles from [@aniketpant](https://github.com/aniketpant/) who originally forked [@holman](https://github.com/holman). Also based off of [@parkr's](https://github.com/@parkr) dotfiles.
+
+This is now the home of my own dotfiles; including install and update routines.
 
 ## Install
 
