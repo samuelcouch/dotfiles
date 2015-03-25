@@ -87,11 +87,6 @@ set laststatus=2                " ensures that airline always visible
 set splitbelow
 set splitright
 
-"""" CUSTOM COMMANDS """
-
-" Kill all the trailing whitespace
-command TrimWhitespace :%s/\s\+$//
-
 syntax enable
 colorscheme spacegray
 set backspace=indent,eol,start
