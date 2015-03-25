@@ -6,12 +6,14 @@ This is now the home of my own dotfiles; including install and update routines.
 
 ## Install
 
-Dotfiles:
+#### Dotfiles:
+
 1. Clone this repo
 2. `cd` into the directory
 3. Run `rake install`
 
-Components:
+#### Components:
+
 1. `scripts/install`
 
 ## Components
