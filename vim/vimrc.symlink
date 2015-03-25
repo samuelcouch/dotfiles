@@ -25,6 +25,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 " file explorer plugin
 Plugin 'tpope/vim-vinegar'
+" auto-complete for open/close characters
+Plugin 'Townk/vim-autoclose'
 
 """" COLOR SCHEMES """"
 
