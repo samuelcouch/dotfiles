@@ -8,8 +8,8 @@ This is now the home of my own dotfiles; including install and update routines.
 
 Dotfiles:
 1. Clone this repo
-1. `cd` into the directory
-1. Run `rake install`
+2. `cd` into the directory
+3. Run `rake install`
 
 Components:
 1. `scripts/install`
