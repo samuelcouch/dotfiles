@@ -52,6 +52,8 @@ Plugin 'cespare/vim-toml'
 Plugin 'tpope/vim-haml'
 " Golang editing
 Plugin 'fatih/vim-go'
+" Markdown previewer
+Plugin 'suan/vim-instant-markdown'
 
 """" INTERFACE PLUGINS """"
 
