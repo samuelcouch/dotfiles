@@ -1,4 +1,4 @@
-"*":
+"global":
   editor:
     showIndentGuide: true
     fontFamily: "Menlo"
@@ -33,3 +33,6 @@
     showOnStartup: false
   "release-notes":
     viewedVersion: "0.89.0"
+'.source.c':
+  editor:
+    'tabLength': 4
