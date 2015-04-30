@@ -1,4 +1,4 @@
-"global":
+"*":
   editor:
     showIndentGuide: true
     fontFamily: "Menlo"
@@ -33,6 +33,14 @@
     showOnStartup: false
   "release-notes":
     viewedVersion: "0.89.0"
-'.source.c':
+  "autocomplete-clang":
+    preCompiledHeaders: {}
+    std: {}
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
+".c.source":
   editor:
-    'tabLength': 4
+    tabLength: 4
+".js.source":
+  editor:
+    tabLength: 4
