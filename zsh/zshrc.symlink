@@ -11,9 +11,9 @@ plugins=(brew git npm zsh-syntax-highlighting tmux common-aliases sublime)
 source $ZSH/oh-my-zsh.sh
 
 # export bin paths
+export PATH="$HOME/.node/bin:$PATH"
 export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
 export PATH=$DOTFILES/bin:/usr/local/bin:$PATH
-export PATH="$HOME/.node/bin:$PATH"
 export PATH=$HOME~/.rbenv/shims:/.rbenv/bin:$PATH
 
 source $HOME/.profile
@@ -37,3 +37,5 @@ do
     source $config_file
   fi
 done
+
+eval "$(hub alias -s)"
