@@ -1,9 +1,9 @@
 "*":
   editor:
     showIndentGuide: true
-    fontFamily: "Menlo"
-    fontSize: 12
+    fontSize: 14
     invisibles: {}
+    fontFamily: "SourceCodePro-Regular"
   core:
     ignoredNames: [
       ".bundle"
@@ -14,8 +14,8 @@
       "vendor"
     ]
     themes: [
-      "spacegray-dark-ui"
-      "spacegray-atom-dark-syntax"
+      "seti-ui"
+      "atom-dark-syntax"
     ]
     hideGitIgnoredFiles: true
     disabledPackages: [
@@ -38,9 +38,9 @@
     std: {}
   "autocomplete-plus":
     includeCompletionsFromAllBuffers: true
-".c.source":
+".js.source":
   editor:
     tabLength: 4
-".js.source":
+".c.source":
   editor:
     tabLength: 4
