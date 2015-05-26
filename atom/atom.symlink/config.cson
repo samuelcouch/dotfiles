@@ -1,9 +1,10 @@
 "*":
   editor:
     showIndentGuide: true
-    fontSize: 14
-    invisibles: {}
+    invisibles:
+      {}
     fontFamily: "SourceCodePro-Regular"
+    fontSize: 13
   core:
     ignoredNames: [
       ".bundle"
@@ -17,7 +18,7 @@
       "seti-ui"
       "atom-dark-syntax"
     ]
-    hideGitIgnoredFiles: true
+    hideGitIgnoredFiles: false
     disabledPackages: [
       "background-tips"
       "exception-reporting"
@@ -34,10 +35,16 @@
   "release-notes":
     viewedVersion: "0.89.0"
   "autocomplete-clang":
-    preCompiledHeaders: {}
-    std: {}
+    preCompiledHeaders:
+      {}
+    std:
+      {}
   "autocomplete-plus":
     includeCompletionsFromAllBuffers: true
+  react:
+    {}
+  "markdown-pdf":
+    {}
 ".js.source":
   editor:
     tabLength: 4
