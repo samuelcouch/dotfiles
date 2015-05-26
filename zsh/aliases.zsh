@@ -3,6 +3,7 @@ alias h='cd ~/'
 
 alias c='clear'
 alias pk='pkill -9'
+alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 
 alias expose='ngrok -authtoken $NGROKTOKEN --subdomain=couch'
 
