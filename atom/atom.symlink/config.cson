@@ -47,7 +47,7 @@
     {}
 ".js.source":
   editor:
-    tabLength: 4
+    tabLength: 2
 ".c.source":
   editor:
     tabLength: 4
