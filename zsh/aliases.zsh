@@ -6,9 +6,14 @@ alias pk='pkill -9'
 alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 
 alias expose='ngrok -authtoken $NGROKTOKEN --subdomain=couch'
+alias iterm='open -a iTerm.app `pwd`'
 
 alias mkdir='mkdir -pv'
 alias finder='open ./'
+
+##UPDATERS
+alias :vu='vim +PluginUpdate +qa'
+alias :bu='brew update && brew upgrade --all'
 
 ## FUNCTIONS ##
 function ram() {
