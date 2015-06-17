@@ -15,6 +15,10 @@ alias finder='open ./'
 alias :vu='vim +PluginUpdate +qa'
 alias :bu='brew update && brew upgrade --all'
 
+##DIRECTORY MAPPINGS
+hash -d work=~/SnipSnap/
+hash -d gh=~/GithubCode/
+
 ## FUNCTIONS ##
 function ram() {
   local sum
