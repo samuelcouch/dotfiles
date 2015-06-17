@@ -27,11 +27,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-vinegar'
 " auto-complete for open/close characters
 Plugin 'Townk/vim-autoclose'
+Plugin 'iandoe/vim-osx-colorpicker'
 
 """" COLOR SCHEMES """"
-
 " Spacegray color scheme
 Plugin 'skeswa/Spacegray.vim'
+Plugin 'fortes/vim-escuro'
 
 """" LANGUAGE PLUGINS """"
 
@@ -45,8 +46,6 @@ Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-markdown'
 " Coffeescript editing
 Plugin 'kchmck/vim-coffee-script'
-" Rust editing
-Plugin 'wting/rust.vim'
 Plugin 'cespare/vim-toml'
 " Sass editing
 Plugin 'tpope/vim-haml'
@@ -54,6 +53,18 @@ Plugin 'tpope/vim-haml'
 Plugin 'fatih/vim-go'
 " Markdown previewer
 Plugin 'suan/vim-instant-markdown'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-ragtag'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-dispatch'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'slim-template/vim-slim'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'evanmiller/nginx-vim-syntax'
+Plugin 'marijnh/tern_for_vim'
+Plugin 'elixir-lang/vim-elixir'
 
 """" INTERFACE PLUGINS """"
 
