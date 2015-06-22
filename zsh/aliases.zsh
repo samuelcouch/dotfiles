@@ -10,10 +10,12 @@ alias iterm='open -a iTerm.app `pwd`'
 
 alias mkdir='mkdir -pv'
 alias finder='open ./'
+alias gd='git diff'
 
 ##UPDATERS
 alias :vu='vim +PluginUpdate +qa'
 alias :bu='brew update && brew upgrade --all'
+alias :zu='upgrade_oh_my_zsh'
 
 ##DIRECTORY MAPPINGS
 hash -d work=~/SnipSnap/
