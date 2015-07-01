@@ -3,12 +3,6 @@ vim/vim.symlink/.netrwhist
 *~
 *#*
 
-atom/atom.symlink/.node-gyp
-atom/atom.symlink/.storage
-atom/atom.symlink/compile-cache/
-atom/atom.symlink/packages
-atom/atom.symlink/storage
-atom/atom.symlink/themes
+atom/atom.symlink/
 
 vim/vim.symlink/bundle/
-atom/atom.symlink/.apm/

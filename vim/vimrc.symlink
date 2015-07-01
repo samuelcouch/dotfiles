@@ -36,10 +36,6 @@ Plugin 'fortes/vim-escuro'
 
 """" LANGUAGE PLUGINS """"
 
-" JS editing
-Plugin 'pangloss/vim-javascript'
-" JSX editing
-Plugin 'mxw/vim-jsx'
 " LESS editing
 Plugin 'groenewege/vim-less'
 " Markdown editing
@@ -51,7 +47,6 @@ Plugin 'cespare/vim-toml'
 Plugin 'tpope/vim-haml'
 " Golang editing
 Plugin 'fatih/vim-go'
-" Markdown previewer
 Plugin 'suan/vim-instant-markdown'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-ragtag'
@@ -63,13 +58,13 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'slim-template/vim-slim'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'evanmiller/nginx-vim-syntax'
-Plugin 'marijnh/tern_for_vim'
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'pangloss/vim-javascript'
 
 """" INTERFACE PLUGINS """"
 
 " the baller-ass status line
-Plugin 'skeswa/lightline.vim'
+Plugin 'itchyny/lightline.vim'
 " the git status line
 Plugin 'airblade/vim-gitgutter'
 " trailing whitespace management
@@ -77,28 +72,43 @@ Plugin 'bronson/vim-trailing-whitespace'
 
 """" COMMAND PLUGINS """"
 
-" CtrlP
-Plugin 'kien/ctrlp.vim'
 " Emmet.io
 Plugin 'mattn/emmet-vim'
+Plugin 'thoughtbot/vim-rspec'
 
 " All of your Plugins must be added before the following line
 call vundle#end()               " required
 filetype plugin indent on       " required
 
-"""" LIGHTLINE CONFIGURATION """"
+let mapleader = ",,"
 
+"""" LIGHTLINE CONFIGURATION """"
 " Put your non-Plugin stuff after this line
 let g:lightline = {
-    \ 'colorscheme': 'spacegray'
+    \ 'colorscheme': 'Tomorrow_Night_Eighties'
     \ }
 set laststatus=2                " ensures that airline always visible
 
 """" MISC TWEAKS """"
-
 " More natural splitting
 set splitbelow
 set splitright
+
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
+"""NORMAL MODE MAPS"""
+nnoremap \ dd
+
+"""INSERT MODE MAPS"""
+inoremap <c-d> <esc>ddi
+
+""" Language Settings """
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+autocmd Filetype javascript setlocal ts=4 sts=4 sw=4
 
 syntax enable
 colorscheme spacegray
